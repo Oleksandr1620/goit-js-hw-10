@@ -14,3 +14,112 @@
 @import url('./header.css');
 @import url('./badges.css');
 @import url('./back-link.css');
+
+/* 1-timer */
+
+.timer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+}
+
+.label {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+
+/* 2-snackbar */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: #000;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+a.back-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+a.back-link:hover {
+  text-decoration: underline;
+}
+
+h1.main-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input[type='number'] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 2px solid #dcdcdc;
+  border-radius: 6px;
+  margin-top: 0;
+}
+
+fieldset {
+  border: 2px solid #dcdcdc;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+}
+
+.form button[type='submit'] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #dcdcdc;
+  border-radius: 6px;
+  background-color: #e5e5e5;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.form button[type='submit']:hover {
+  background-color: #d6d6d6;
+}
